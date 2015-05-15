@@ -34,59 +34,35 @@
 
 
 @implementation LPPopupListViewCell
-
 #pragma mark - Lifecycle
-
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
-{
-    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self) {
-        self.backgroundColor = [UIColor clearColor];
-        self.textLabel.textColor = [UIColor whiteColor];
-        self.textLabel.font = [UIFont fontWithName:@"Helvetica" size:16.0f];
-        
-        self.rightImageView = [UIImageView new];
-        [self addSubview:self.rightImageView];
-    }
-    return self;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
+  [super setSelected:selected animated:animated];
+  [self selection:selected];
 }
 
-- (void)layoutSubviews
-{
-    [super layoutSubviews];
-
-    self.textLabel.frame = CGRectOffset(self.textLabel.frame, 6, 0);
-    
-    self.rightImageView.frame = CGRectMake((self.frame.size.width - rightImageViewWidth), 0.0f, rightImageViewWidth, self.frame.size.height);
-    
-    if (self.rightImageView.image) {
-        CGRect textLabelFrame = self.textLabel.frame;
-        textLabelFrame.size.width -= (16.0f * [[UIScreen mainScreen] scale]);
-        self.textLabel.frame = textLabelFrame;
-    }
+- (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated {
+  [super setHighlighted:highlighted animated:animated];
+  [self selection:highlighted];
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated
-{
-    [super setSelected:selected animated:animated];
-    
-    [self selection:selected];
+- (void)selection:(BOOL)select {
+  if (select) {
+    self.backgroundColor = self.highlightColor;
+  } else {
+    self.backgroundColor = [UIColor clearColor];
+  }
 }
 
-- (void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated
-{
-    [super setHighlighted:highlighted animated:animated];
-
-    [self selection:highlighted];
-}
-
-- (void)selection:(BOOL)select
-{
-    if (select) {
-        self.backgroundColor = self.highlightColor;
-    } else {
-        self.backgroundColor = [UIColor clearColor];
-    }
+- (void) setUseleftImg:(BOOL)useleftImg {
+  _useleftImg = useleftImg;
+  self.imgLeft.hidden = !useleftImg;
+  if (useleftImg) {
+    leftImgW.constant = 28;
+    space1W.constant = 8;
+  } else {
+    leftImgW.constant = 0;
+    space1W.constant = 0;
+  }
 }
 
 @end

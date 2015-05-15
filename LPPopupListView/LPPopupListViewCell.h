@@ -30,11 +30,16 @@
 #import <UIKit/UIKit.h>
 
 
-@interface LPPopupListViewCell : UITableViewCell
+@interface LPPopupListViewCell : UITableViewCell {
+  __weak IBOutlet NSLayoutConstraint *leftImgW;
+  __weak IBOutlet NSLayoutConstraint *space1W;
+}
+
+@property (nonatomic, weak) IBOutlet UIImageView *imgLeft;
+@property (nonatomic, weak) IBOutlet UILabel *lblTitle;
+@property (nonatomic, weak) IBOutlet UIImageView *imgRight;
 
 @property (nonatomic, strong) UIColor *highlightColor;
-@property (nonatomic, strong) UIImageView *rightImageView;
-
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier;
+@property (nonatomic, assign) BOOL useleftImg;
 
 @end

@@ -39,12 +39,21 @@
 @property (nonatomic, strong) NSMutableIndexSet *selectedIndexes;
 @property (nonatomic, strong) UILabel *titleLabel;
 @property (nonatomic, strong) UIButton *closeButton;
+@property (nonatomic, strong) UIButton *btnLeft;
 @property (nonatomic, strong) UIView *navigationBarView;
 @property (nonatomic, strong) UIView *separatorLineView;
 @property (nonatomic, assign) BOOL closeAnimated;
+@property (nonatomic, assign) BOOL useCellLeftImage;
 @property (nonatomic, strong) UIColor *cellHighlightColor;
 
-- (id)initWithTitle:(NSString *)title list:(NSArray *)list selectedIndexes:(NSIndexSet *)selectedList point:(CGPoint)point size:(CGSize)size multipleSelection:(BOOL)multipleSelection disableBackgroundInteraction:(BOOL)diableInteraction;
+
+- (id)initWithTitle:(NSString *)title
+               list:(NSArray *)list
+    selectedIndexes:(NSIndexSet *)selectedList
+              point:(CGPoint)point
+               size:(CGSize)size
+  multipleSelection:(BOOL)multipleSelection
+disableBackgroundInteraction:(BOOL)diableInteraction;
 - (void)showInView:(UIView *)view animated:(BOOL)animated;
 - (void)hideAnimated:(BOOL)animated;
 
@@ -54,6 +63,9 @@
 #pragma mark - Delegate Protocol
 
 @protocol LPPopupListViewDelegate <NSObject>
+
+@required
+- (void)popupListView:(LPPopupListView *)popupListView cell:(LPPopupListViewCell*)cell object:(id)obj isSelected:(BOOL)isSelected;
 
 @optional
 

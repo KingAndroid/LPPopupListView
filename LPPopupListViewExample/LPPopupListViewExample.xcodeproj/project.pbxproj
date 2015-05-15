@@ -13,11 +13,6 @@
 		0CAE3A4518E4B6560085617C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE3A4418E4B6560085617C /* main.m */; };
 		0CAE3A4918E4B6560085617C /* LPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE3A4818E4B6560085617C /* LPAppDelegate.m */; };
 		0CAE3A4B18E4B6560085617C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAE3A4A18E4B6560085617C /* Images.xcassets */; };
-		0CAE3A5218E4B6560085617C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAE3A5118E4B6560085617C /* XCTest.framework */; };
-		0CAE3A5318E4B6560085617C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAE3A3818E4B6560085617C /* Foundation.framework */; };
-		0CAE3A5418E4B6560085617C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAE3A3C18E4B6560085617C /* UIKit.framework */; };
-		0CAE3A5C18E4B6560085617C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CAE3A5A18E4B6560085617C /* InfoPlist.strings */; };
-		0CAE3A5E18E4B6560085617C /* LPPopupListViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE3A5D18E4B6560085617C /* LPPopupListViewExampleTests.m */; };
 		0CAE3A6A18E4B6B40085617C /* LPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE3A6718E4B6B40085617C /* LPMainViewController.m */; };
 		0CAE3A6B18E4B6B40085617C /* LPMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CAE3A6918E4B6B40085617C /* LPMainViewController.xib */; };
 		0CAE3A7618E4B6C70085617C /* checkMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CAE3A6E18E4B6C70085617C /* checkMark.png */; };
@@ -26,17 +21,8 @@
 		0CAE3A7918E4B6C70085617C /* closeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CAE3A7118E4B6C70085617C /* closeButton@2x.png */; };
 		0CAE3A7A18E4B6C70085617C /* LPPopupListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE3A7318E4B6C70085617C /* LPPopupListView.m */; };
 		0CAE3A7B18E4B6C70085617C /* LPPopupListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE3A7518E4B6C70085617C /* LPPopupListViewCell.m */; };
+		260DC93E1B057C1D003296AC /* LPPopupListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 260DC93D1B057C1D003296AC /* LPPopupListViewCell.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0CAE3A5518E4B6560085617C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0CAE3A2D18E4B6560085617C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0CAE3A3418E4B6560085617C;
-			remoteInfo = LPPopupListViewExample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0CAE3A3518E4B6560085617C /* LPPopupListViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPPopupListViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,7 +36,6 @@
 		0CAE3A4718E4B6560085617C /* LPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPAppDelegate.h; sourceTree = "<group>"; };
 		0CAE3A4818E4B6560085617C /* LPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPAppDelegate.m; sourceTree = "<group>"; };
 		0CAE3A4A18E4B6560085617C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0CAE3A5018E4B6560085617C /* LPPopupListViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LPPopupListViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CAE3A5118E4B6560085617C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0CAE3A5918E4B6560085617C /* LPPopupListViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LPPopupListViewExampleTests-Info.plist"; sourceTree = "<group>"; };
 		0CAE3A5B18E4B6560085617C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -66,6 +51,7 @@
 		0CAE3A7318E4B6C70085617C /* LPPopupListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPopupListView.m; sourceTree = "<group>"; };
 		0CAE3A7418E4B6C70085617C /* LPPopupListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPPopupListViewCell.h; sourceTree = "<group>"; };
 		0CAE3A7518E4B6C70085617C /* LPPopupListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPPopupListViewCell.m; sourceTree = "<group>"; };
+		260DC93D1B057C1D003296AC /* LPPopupListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPPopupListViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,16 +61,6 @@
 			files = (
 				0CAE3A3D18E4B6560085617C /* UIKit.framework in Frameworks */,
 				0CAE3A3918E4B6560085617C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0CAE3A4D18E4B6560085617C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0CAE3A5218E4B6560085617C /* XCTest.framework in Frameworks */,
-				0CAE3A5418E4B6560085617C /* UIKit.framework in Frameworks */,
-				0CAE3A5318E4B6560085617C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				0CAE3A3518E4B6560085617C /* LPPopupListViewExample.app */,
-				0CAE3A5018E4B6560085617C /* LPPopupListViewExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,6 +160,7 @@
 				0CAE3A6F18E4B6C70085617C /* checkMark@2x.png */,
 				0CAE3A7018E4B6C70085617C /* closeButton.png */,
 				0CAE3A7118E4B6C70085617C /* closeButton@2x.png */,
+				260DC93D1B057C1D003296AC /* LPPopupListViewCell.xib */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -209,24 +185,6 @@
 			productReference = 0CAE3A3518E4B6560085617C /* LPPopupListViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0CAE3A4F18E4B6560085617C /* LPPopupListViewExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0CAE3A6418E4B6560085617C /* Build configuration list for PBXNativeTarget "LPPopupListViewExampleTests" */;
-			buildPhases = (
-				0CAE3A4C18E4B6560085617C /* Sources */,
-				0CAE3A4D18E4B6560085617C /* Frameworks */,
-				0CAE3A4E18E4B6560085617C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0CAE3A5618E4B6560085617C /* PBXTargetDependency */,
-			);
-			name = LPPopupListViewExampleTests;
-			productName = LPPopupListViewExampleTests;
-			productReference = 0CAE3A5018E4B6560085617C /* LPPopupListViewExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -239,9 +197,6 @@
 				TargetAttributes = {
 					0CAE3A3418E4B6560085617C = {
 						DevelopmentTeam = VD448M8BPE;
-					};
-					0CAE3A4F18E4B6560085617C = {
-						TestTargetID = 0CAE3A3418E4B6560085617C;
 					};
 				};
 			};
@@ -258,7 +213,6 @@
 			projectRoot = "";
 			targets = (
 				0CAE3A3418E4B6560085617C /* LPPopupListViewExample */,
-				0CAE3A4F18E4B6560085617C /* LPPopupListViewExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -275,14 +229,7 @@
 				0CAE3A6B18E4B6B40085617C /* LPMainViewController.xib in Resources */,
 				0CAE3A7718E4B6C70085617C /* checkMark@2x.png in Resources */,
 				0CAE3A4B18E4B6560085617C /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0CAE3A4E18E4B6560085617C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0CAE3A5C18E4B6560085617C /* InfoPlist.strings in Resources */,
+				260DC93E1B057C1D003296AC /* LPPopupListViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,23 +248,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0CAE3A4C18E4B6560085617C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0CAE3A5E18E4B6560085617C /* LPPopupListViewExampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0CAE3A5618E4B6560085617C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0CAE3A3418E4B6560085617C /* LPPopupListViewExample */;
-			targetProxy = 0CAE3A5518E4B6560085617C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0CAE3A4118E4B6560085617C /* InfoPlist.strings */ = {
@@ -437,46 +368,6 @@
 			};
 			name = Release;
 		};
-		0CAE3A6518E4B6560085617C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LPPopupListViewExample.app/LPPopupListViewExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LPPopupListViewExample/LPPopupListViewExample-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "LPPopupListViewExampleTests/LPPopupListViewExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		0CAE3A6618E4B6560085617C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LPPopupListViewExample.app/LPPopupListViewExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LPPopupListViewExample/LPPopupListViewExample-Prefix.pch";
-				INFOPLIST_FILE = "LPPopupListViewExampleTests/LPPopupListViewExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -494,15 +385,6 @@
 			buildConfigurations = (
 				0CAE3A6218E4B6560085617C /* Debug */,
 				0CAE3A6318E4B6560085617C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0CAE3A6418E4B6560085617C /* Build configuration list for PBXNativeTarget "LPPopupListViewExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0CAE3A6518E4B6560085617C /* Debug */,
-				0CAE3A6618E4B6560085617C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

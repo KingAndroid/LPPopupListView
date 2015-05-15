@@ -10,31 +10,31 @@
 	<string>LPPopupListViewExample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>72716F31-5BDA-4227-A486-8F00444C8DAE</key>
-		<string>https://github.com/luka1995/LPThreeSplitViewController.git</string>
+		<key>1BFCFC960BA0388B853F82F3F22AECEE8F44E52A</key>
+		<string>https://github.com/KingAndroid/LPPopupListView.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>LPPopupListView/LPPopupListViewExample/LPPopupListViewExample.xcodeproj/project.xcworkspace</string>
+	<string>LPPopupListViewExample/LPPopupListViewExample.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>72716F31-5BDA-4227-A486-8F00444C8DAE</key>
-		<string>../../../..</string>
+		<key>1BFCFC960BA0388B853F82F3F22AECEE8F44E52A</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/luka1995/LPThreeSplitViewController.git</string>
+	<string>https://github.com/KingAndroid/LPPopupListView.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>72716F31-5BDA-4227-A486-8F00444C8DAE</string>
+	<string>1BFCFC960BA0388B853F82F3F22AECEE8F44E52A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>72716F31-5BDA-4227-A486-8F00444C8DAE</string>
+			<string>1BFCFC960BA0388B853F82F3F22AECEE8F44E52A</string>
 			<key>IDESourceControlWCCName</key>
-			<string>GitHub</string>
+			<string>LPPopupListView</string>
 		</dict>
 	</array>
 </dict>
