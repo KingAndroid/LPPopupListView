@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = "LPPopupListView@ZL"
-  s.version      = "1.0.3.1"
+  s.version      = "1.0.4"
   s.summary      = "LPPopupListView is custom popup component for iOS with table for single or multiple selection."
-  s.homepage     = "https://github.com/luka1995/LPPopupListView"
+  s.homepage     = "https://github.com/KingAndroid/LPPopupListView"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Luka Penger' => 'luka.penger@gmail.com', 'King Android' => 'kingandroid627@yahoo.com' }
   s.source       = { :git => "https://github.com/KingAndroid/LPPopupListView.git", :tag => s.version.to_s }
